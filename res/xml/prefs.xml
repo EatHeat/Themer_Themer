@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference android:title="@string/theme_name" />
+    <Preference android:title="@string/version" android:summary="@string/version_summary" />
+    <Preference android:title="@string/developer" android:summary="@string/developer_summary" />
+    <Preference android:title="@string/howto" android:summary="@string/howto_summary" />		
+    <PreferenceScreen android:title="@string/rate_theme" android:summary="@string/rate_theme_summary">
+        <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/details?id=tk.eatheat.pie" />
+    </PreferenceScreen>	
+    <PreferenceScreen android:title="@string/more_themes" android:summary="@string/more_themes_summary">
+        <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/developer?id=EatHeat" />
+    </PreferenceScreen>		
+	
+</PreferenceScreen>
